@@ -1,6 +1,7 @@
 #write your code here
 
 def countdown(n)
+  puts n
   n.times do
     "#{n * -1} SECOND(S)!"
     n = n - 1

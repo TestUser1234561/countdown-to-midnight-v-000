@@ -4,6 +4,6 @@ def countdown(n)
   number = n
   n.times do
     "#{number} SECOND(S)!"
-    n-=1
+    number-=1
   end
 end
